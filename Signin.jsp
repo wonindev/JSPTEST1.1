@@ -15,13 +15,15 @@
 </head>
 
 
+
+
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
         <a class="navbar-brand" href="Main.jsp" title="메인페이지로 이동">KSsoftware Wiki</a>
     </div>
 </nav>
 
-</div>
+
 
 <div class="flex-container" align="center">
     <div style="padding-top: 140px;">
@@ -35,11 +37,11 @@
             <input type="password" class="form-control" placeholder="Password">
         </div>
 
-        <div class="d-grid gap-2 col-2 mb-2">
+        <div class="d-grid gap-2 col-3 mb-2">
             <button class="btn btn-lg btn-success btn-block" type="submit">Sign in</button>
         </div>
 
-        <div class="d-grid gap-2 col-2">
+        <div class="d-grid gap-2 col-3">
             <button class="btn btn-lg btn-warning btn-block" type="button" onclick="location.href='Signup.jsp'">Sign
                 up
             </button>
